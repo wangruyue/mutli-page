@@ -25,8 +25,8 @@ npm test
 ```
 # 搭建多页应用修改的地方 * 注意项目目录结构
 # 版本号  vue 2.9.6 webpack 3.6.0 
-1、修改unit文件
-  在unit 文件里添加获取公共文件路径的方法 getEntries
+# 1、修改unit文件
+# 在unit 文件里添加获取公共文件路径的方法 getEntries
   PS： 传hml 获取的html文件，传js 获取的js文件
 2、修改 webpack.base 文件 即配置多页面入口
   调用 getEntries（）方法 获取 入口文件 PS：传的是js文件目录 
